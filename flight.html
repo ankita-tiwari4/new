@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>flight</title>
+</head>
+<style>
+.column {
+  float: left;
+  width: 33.33%;
+  font-size:40px;
+  font-color:white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-size:40px;
+  font-color:green;  
+}
+Input{
+     height:40px;
+     width:200px;     
+}
+SELECT{
+       height:40px;
+       width:150px;
+       }
+button{
+      border-radius:9px;
+      }
+      body{
+        background-image: url("bgf.1.jpg");
+      background-size: cover;
+      background-blend-mode:color-burn;
+       }
+       ul,li{
+        color:white;
+       }
+       div{
+        color:white;
+       }
+      P{
+       text-align=right;
+       color:white;
+       font-size:35px;
+}
+</style>
+<body>
+<h1 STYLE="background-color:transparent;color:white;font-size:40px;">FLIGHT</h1>
+<h2 align="center" style="color:white;font-size:30px"><i>LOVE AT FIRST FLIGHT</i></h2>
+<img src="f1.jpg" style="height:500px;width:1300px"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<hr>
+<img src="f2.jpg" style="height:400px;width:900px;">
+<p><i>Book your tickets now and get a discount</i></p>
+<h3 style="background-color:green;font-size:30px;">BOOKING DETAILS</h3>
+<div class="row">
+  <div class="column">DEPARTURE</div>
+  <div class="column">
+<li>TO:</li>
+<input type="text" placeholder="Station Name"><br>&nbsp;&nbsp;&nbsp;
+<li>FARE TYPE</li>
+<select style="height:40px;width:150px;">
+<option value="">TICKET TYPE</option>
+<option value="">FIRST CLASS</option>
+<option value="">BUSINESS CLASS</option>
+<option value="">ECONOMY CLASS</option>
+</select>&nbsp
+</div><br>
+  <div class="column">
+<li>FROM:</li>
+<input type="text" placeholder="Station Name"><br>&nbsp;&nbsp;&nbsp;&nbsp;
+<li>TRAVELLER</li>
+<select style="height:40px;width:150px;">
+<option value="">Adults</option>
+<option value="">Children</option>
+<option value="">Male</option>
+<option value="">Female</option>
+</select>&nbsp
+</div><br>
+</div>&nbsp
+<div align="center">
+<a><button style="height:39px;width:140px;background-color:lightblue;top-margin:25px;">SEARCH</button></a></div>
+</body>
+</html>
